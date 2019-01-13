@@ -1,0 +1,86 @@
+body{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+#header{
+    font-size: 2em;
+    background-color: #d13d3d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.score-board{
+    max-width: 200px;
+    margin-top: 50px;
+    padding: 50px;
+    border: 2px solid #888;
+    font-size: 3em;
+    border-radius: 5px;
+    box-shadow: -5px -10px 30px -2px #888888;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+#user-label{
+    position: absolute;
+    top:50;
+    left: -2;
+    font-size: 0.33em!important;
+    max-width: 50px;
+    padding: 5px;
+    background-color: #d13d3d;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#computer-label{
+    position: absolute;
+    top: 50px;
+    right: -25px;
+    font-size: 0.33em!important;
+    max-width: 50px;
+    padding: 5px;
+    background-color: #d13d3d;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.choices{
+    margin-top: 20px;
+}
+
+.choice{
+    box-shadow: -5px -10px 30px #888;
+    display: inline-block;
+    border-radius: 100px;
+    text-align: center;
+    max-width: 120px;
+    background-color: #fff;
+    margin: 10px;
+    border: 2px solid #888;
+}
+
+.choice>img{
+    max-height: 100px;
+    padding: 10px;
+}
+
+.choice:hover{
+    background-color: #d13d3d;
+    box-shadow: -5px -10px 30px 5px #7a0b0b;
+    border: 2px solid  #680808;
+}
+
+.result{
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.sugest{
+    margin-top: 10px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,57 @@
+body{
+    background-color: #272433;
+    color: #fff;
+    text-align: center;
+}
+
+#header{
+    background-color: #fff;
+    color: #272433;
+    text-align: center;
+    padding: 10px;
+}
+
+.score-board{
+    max-width: 200px;
+    margin-top: 50px;
+    padding: 50px;
+    border: 2px solid #fff;
+    font-size: 3em;
+    border-radius: 5px;
+}
+
+#user-label{
+    font-size: 0.33em!important;
+}
+
+#computer-label{
+    font-size: 0.33em!important;
+    max-width: 50px;
+    bo
+}
+
+#choices{
+    display: inline;
+}
+
+.choice{
+    display: inline-block;
+    border-radius: 100px;
+    text-align: center;
+    max-width: 120px;
+    background-color: #fff;
+    margin: 10px
+}
+
+.choice>img{
+    max-height: 100px;
+    padding: 10px;
+}
+
+.choice:hover{
+    background-color: rgb(150, 153, 0);
+}
+
+.result{
+    font-size: 2em;
+}
